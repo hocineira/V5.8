@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "1983940826",
+    "title": "The Data Engineering Agent is now in preview",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Data is the lifeblood of the modern entreprise, but the process of making it useful is often fraught with friction. Data engineers, analysts, and scientists—some of the most skilled and valuable talent in any organization—are spending a disproportionate amount of their time on repetitive, low-impact tasks. What if you could shift your focus from manually building and maintaining pipelines to defining the best practi",
+    "link": "https://cloud.google.com/blog/products/data-analytics/exploring-the-data-engineering-agent-in-bigquery/",
+    "published_date": "2025-11-03T18:30:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "migration",
+      "ia",
+      "stockage",
+      "base-de-données",
+      "serverless",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.664Z",
+    "updated_at": "2025-11-03T21:05:28.664Z"
+  },
+  {
+    "id": "1287223098",
+    "title": "OpenAI signe un contrat � 38 Md$ avec AWS",
+    "description": "Apr&egrave;s son accord capitalistique avec Microsoft, OpenAI peut nouer des partenariats avec d'autres fournisseurs de cloud. La preuve en est l'accord (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-openai-signe-un-contrat-a-38-md$-avec-aws-98382.html",
+    "published_date": "2025-11-03T18:09:17.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "387584776",
+    "title": "AWS Weekly Roundup: Project Rainier online, Amazon Nova, Amazon Bedrock, and more (November 3, 2025)",
+    "description": "Last week I met Jeff Barr at the AWS Shenzhen Community Day. Jeff shared stories about how builders around the world are experimenting with generative AI and encouraged local developers to keep pushing ideas into real prototypes. Many attendees stayed after the sessions to discuss model grounding, evaluation, and how to bring generative AI into […]",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-project-rainier-online-amazon-nova-amazon-bedrock-and-more-november-3-2025/",
+    "published_date": "2025-11-03T17:55:23.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.641Z",
+    "updated_at": "2025-11-03T21:05:28.641Z"
+  },
+  {
+    "id": "1580993287",
+    "title": "Intel n�gocierait le rachat de SambaNova",
+    "description": "Apr&egrave;s un trimestre montant des signes de reprise, Intel retrouverait le chemin des acquisitions. Selon Bloomberg, la firme aurait jet&eacute; son (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-intel-negocierait-le-rachat-de-sambanova-98380.html",
+    "published_date": "2025-11-03T17:50:03.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "964028894",
+    "title": "Inside Mercado Libre's multi-faceted Spanner architecture",
+    "description": "<div class=\"block-paragraph_advanced\"><p><a href=\"https://mercadolibre.com/\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Mercado Libre</span></a><span style=\"vertical-align: baseline;\">, the e-commerce and fintech pioneer of Latin America, operates at a staggering scale, demanding an infrastructure that's not just resilient and scalable, but also a catalyst for rapid innovation. While our use of </span><a href=\"https://cloud.google.com/spann",
+    "link": "https://cloud.google.com/blog/topics/retail/inside-mercado-libres-multi-faceted-spanner-foundation-for-scale-and-ai/",
+    "published_date": "2025-11-03T17:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "infrastructure",
+      "ia",
+      "stockage",
+      "base-de-données",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.665Z",
+    "updated_at": "2025-11-03T21:05:28.665Z"
+  },
+  {
+    "id": "1444637640",
+    "title": "How scientists can leverage AI agents using Gemini entreprise, Gemini Code Assist, and Gemini CLI",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Scientific inquiry has always been a journey of curiosity, meticulous effort, and groundbreaking discoveries. Today, that journey is being redefined, fueled by the incredible capabilities of AI. It’s moving beyond simply processing data to actively participating in every stage of discovery, and Google cloud is at the forefront of this transformation, building the tools and platforms that make it possible. </span></p",
+    "link": "https://cloud.google.com/blog/products/ai-machine-learning/how-scientists-can-use-gemini-enterprise-for-ai-workflows/",
+    "published_date": "2025-11-03T17:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "infrastructure",
+      "migration",
+      "ia",
+      "stockage",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.666Z",
+    "updated_at": "2025-11-03T21:05:28.666Z"
+  },
+  {
+    "id": "232836791",
+    "title": "Evolving Ray and Kubernetes together for the future of distributed AI and ML",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Ray is an OSS compute engine that is popular among Google cloud developers to handle complex distributed AI workloads across CPUs, GPUs, and TPUs. Similarly, platform engineers have long trusted Kubernetes, and specifically Google Kubernetes Engine, for powerful and reliable infrastructure orchestration. Earlier this year, we </span><a href=\"https://cloud.google.com/blog/products/conteneurs-Kubernetes/partnering-wit",
+    "link": "https://cloud.google.com/blog/products/containers-kubernetes/ray-on-gke-new-features-for-ai-scheduling-and-scaling/",
+    "published_date": "2025-11-03T17:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "ia",
+      "stockage",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.668Z",
+    "updated_at": "2025-11-03T21:05:28.668Z"
+  },
+  {
+    "id": "428208302",
+    "title": "A more native experience for cloud TPUs with Ray on GKE",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Engineering teams use Ray to scale AI workloads across a wide range of hardware, including both GPUs and cloud TPUs. While Ray provides the core scaling capabilities, developers have often managed the unique architectural details of each accelerator. For cloud TPUs, this included its specific networking model and Single Programming Multiple Data (SPMD) programming style. </span></p> <p><span style=\"vertical-align: b",
+    "link": "https://cloud.google.com/blog/products/containers-kubernetes/ray-on-tpus-with-gke-a-more-native-experience/",
+    "published_date": "2025-11-03T17:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "devops",
+      "ia",
+      "stockage",
+      "réseau",
+      "serverless",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.670Z",
+    "updated_at": "2025-11-03T21:05:28.670Z"
+  },
+  {
+    "id": "1492658978",
+    "title": "Announcing the General disponibilité of Smarter, AI-powered Cost Anomaly Detection",
+    "description": "<div class=\"block-paragraph_advanced\"><p style=\"text-align: justify;\"><span style=\"vertical-align: baseline;\">Last year, we announced the aperçu public of </span><a href=\"https://cloud.google.com/blog/topics/cost-gestion/présentation de-cost-anomaly-detection?e=48754805\"><strong style=\"text-decoration: underline; vertical-align: baseline;\">Cost Anomaly Detection</strong></a><span style=\"vertical-align: baseline;\">, an AI-powered product designed to eliminate one of the biggest anxieties of using",
+    "link": "https://cloud.google.com/blog/topics/cost-management/announcing-ga-of-cost-anomaly-detection/",
+    "published_date": "2025-11-03T17:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "ia",
+      "stockage",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.671Z",
+    "updated_at": "2025-11-03T21:05:28.671Z"
+  },
+  {
+    "id": "2125203039",
+    "title": "La configuration du réseau avec Proxmox VE : le guide pour bien débuter",
+    "description": "Apprenez à configurer le réseau de Proxmox VE avec les types d'interface, comme Linux Bridge, Linux Bond, et Linux VLAN, l'affectation d'un VLAN et le SDN. The post La configuration du réseau avec Proxmox VE : le guide pour bien débuter first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/tuto-proxmox-ve-configuration-reseau/",
+    "published_date": "2025-11-03T17:00:00.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "réseau",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "704274305",
+    "title": "Les pratiques commerciales de Broadcom sur VMware encore tacl�es",
+    "description": "Dans son dernier rapport, Ecco (observatoire europ&eacute;en de la concurrence dans le cloud) g&eacute;r&eacute; par le Cispe (regroupant plusieurs fournisseurs (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-les-pratiques-commerciales-de-broadcom-sur-vmware-encore-taclees-98376.html",
+    "published_date": "2025-11-03T16:30:53.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "991912987",
+    "title": "Avec Aardvark, OpenAI chasse les bugs dans le code",
+    "description": "Les apports de l&rsquo;IA dans le domaine de la s&eacute;curit&eacute; logicielle progresse. OpenAI vient de pr&eacute;senter en version de test priv&eacute; (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-avec-aardvark-openai-chasse-les-bugs-dans-le-code-98374.html",
+    "published_date": "2025-11-03T15:39:35.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.708Z",
+    "updated_at": "2025-11-03T21:05:28.708Z"
+  },
+  {
+    "id": "1797932274",
+    "title": "Comment utiliser le client SSH natif de Windows 11 ?",
+    "description": "Ce tutoriel explique comment utiliser le client SSH de Windows pour se connecter par mot de passe ou clé sur Linux et transférer des fichiers avec scp et sftp. The post Comment utiliser le client SSH natif de Windows 11 ? first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/comment-utiliser-le-client-ssh-natif-de-windows-10/",
+    "published_date": "2025-11-03T15:38:09.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1191687338",
+    "title": "Pour la sant� et l'industrie, la migration vers Windows 11 est difficile",
+    "description": "Depuis le 14 octobre 2025 et la fin du support de Windows 10, la bascule vers Windows 11 devient incontournable pour les entreprises. Mais pour (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-pour-la-sante-et-l-industrie-la-migration-vers-windows-11-est-difficile-98367.html",
+    "published_date": "2025-11-03T15:11:51.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "migration",
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.708Z",
+    "updated_at": "2025-11-03T21:05:28.708Z"
+  },
+  {
+    "id": "1495757339",
+    "title": "Windows 11 : le Gestionnaire des tâches refuse de se fermer suite à l&#8217;installation de la KB5067036",
+    "description": "La mise à jour KB5067036 pour Windows 11 semble rendre fou le Gestionnaire des tâches : il refuse de se fermer et continue de tourner en arrière-plan. The post Windows 11 : le Gestionnaire des tâches refuse de se fermer suite à l’installation de la KB5067036 first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/windows-11-le-gestionnaire-des-taches-refuse-de-se-fermer-kb5067036/",
+    "published_date": "2025-11-03T13:37:36.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1340456226",
+    "title": "Comment installer WordPress facilement sur un serveur Web Apache ?",
+    "description": "Tutoriel pas à pas pour installer WordPress sur un serveur Linux (Debian/Ubuntu) avec Apache, MariaDB/MySQL et PHP, en respectant les bonnes pratiques. The post Comment installer WordPress facilement sur un serveur Web Apache ? first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/installation-de-wordpress-sous-linux/",
+    "published_date": "2025-11-03T13:12:15.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "infrastructure",
+      "ia",
+      "base-de-données",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "926803350",
+    "title": "Huawei pr�t � abandonner son usine en Alsace",
+    "description": "En d&eacute;cembre 2020, l&rsquo;ancien pr&eacute;sident de la r&eacute;gion Grand Est Jean Rottner avait salu&eacute; la d&eacute;cision de Huawei (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-huawei-pret-a-abandonner-son-usine-en-alsace-98370.html",
+    "published_date": "2025-11-03T11:39:44.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.708Z",
+    "updated_at": "2025-11-03T21:05:28.708Z"
+  },
+  {
+    "id": "1529233182",
+    "title": "Cisco et Nvidia lancent des commutateurs pour les datacenters IA",
+    "description": "La question du r&eacute;seau pour l&rsquo;infrastructure IA est toujours importante. Cisco et Nvidia viennent d&rsquo;apporter une r&eacute;ponse avec (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-cisco-et-nvidia-lancent-des-commutateurs-pour-les-datacenters-ia-98369.html",
+    "published_date": "2025-11-03T11:09:27.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "infrastructure",
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "1734834390",
+    "title": "Installer un serveur web sur Debian 13 : la stack LAMP (Linux Apache MariaDB PHP)",
+    "description": "Avec ce tutoriel, apprenez à installer et configurer un serveur LAMP (Linux, Apache, MariaDB, PHP) sur Debian 13 Trixie, pour disposer d'un serveur web Linux. The post Installer un serveur web sur Debian 13 : la stack LAMP (Linux Apache MariaDB PHP) first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/installer-un-serveur-lamp-linux-apache-mariadb-php-sous-debian-11/",
+    "published_date": "2025-11-03T10:55:08.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "infrastructure",
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1059480062",
+    "title": "Le Tech Show Paris 2025 approche : Cloud, IA, Cybersécurité&#8230; Rendez-vous les 5 et 6 novembre 2025",
+    "description": "Les 5 et 6 novembre prochains, près de 8 000 professionnels se rendront à Paris Expo Porte de Versailles pour une nouvelle édition du Tech Show Paris 2025. The post Le Tech Show Paris 2025 approche : Cloud, IA, Cybersécurité… Rendez-vous les 5 et 6 novembre 2025 first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/le-tech-show-paris-2025-approche-cloud-ia-cybersecurite-rendez-vous-les-5-et-6-novembre-2025/",
+    "published_date": "2025-11-03T08:28:35.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "sécurité",
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "440551970",
+    "title": "Une faille dans le noyau Linux exploitée dans des attaques par ransomware, alerte la CISA",
+    "description": "La CISA confirme qu’une faille de sécurité (CVE-2024-1086) affectant le noyau Linux est désormais activement exploitée dans le cadre d’attaques par ransomware. The post Une faille dans le noyau Linux exploitée dans des attaques par ransomware, alerte la CISA first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/faille-noyau-linux-cve-2024-1086-attaques-ransomwares/",
+    "published_date": "2025-11-03T05:52:15.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "sécurité",
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1465439885",
+    "title": "Microsoft corrige (enfin) le bug avec le bouton « Arrêter » de Windows 11 qui redémarrait les PC",
+    "description": "Quand vous cliquez sur \"Arrêter et mettre à jour\" au moment d'éteindre votre PC Windows 11, il redémarre ? Sachez que Microsoft a corrigé ce bug agaçant. The post Microsoft corrige (enfin) le bug avec le bouton « Arrêter » de Windows 11 qui redémarrait les PC first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/microsoft-corrige-enfin-le-bug-avec-le-bouton-arreter-de-windows-11-qui-redemarrait-les-pc/",
+    "published_date": "2025-11-03T05:20:31.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1997624923",
+    "title": "Quand la réalité connectée s’invite dans la mode : la révolution des lunettes intelligentes",
+    "description": "La frontière entre le numérique et le réel n’a jamais été aussi fine : les lunettes Ray Ban Meta occupent une place de choix au sein des dernières innovations. The post Quand la réalité connectée s’invite dans la mode : la révolution des lunettes intelligentes first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/quand-la-realite-connectee-sinvite-dans-la-mode-la-revolution-des-lunettes-intelligentes/",
+    "published_date": "2025-11-03T05:00:00.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "932486291",
+    "title": "La Cour des comptes recadre la souverainet� num�rique de l'Etat",
+    "description": "Le sujet de la souverainet&eacute; monte en puissance en France et en Europe, et la Cour des comptes vient apporter son tribut au d&eacute;bat en publiant (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-la-cour-des-comptes-recadre-la-souverainete-numerique-de-l-etat-98362.html",
+    "published_date": "2025-10-31T17:21:53.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "591792883",
+    "title": "cloud CISO Perspectives: AI as a strategic imperative to manage risk",
+    "description": "<div class=\"block-paragraph\"><p data-block-key=\"eucpw\">Welcome to the second cloud CISO Perspectives for October 2025. Today, Jeanette Manfra, senior director, Global Risk and conformité, shares her thoughts on the role of AI in risk gestion.</p><p data-block-key=\"ecvnq\">As with all cloud CISO Perspectives, the contents of this newsletter are posted to the <a href=\"https://cloud.google.com/blog/products/identity-sécurité/\">Google cloud blog</a>. If you’re reading this on the website and you’d",
+    "link": "https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-ai-strategic-imperative-to-manage-risk/",
+    "published_date": "2025-10-31T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "ia",
+      "stockage",
+      "réseau",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.673Z",
+    "updated_at": "2025-11-03T21:05:28.673Z"
+  },
+  {
+    "id": "116702979",
+    "title": "Accelerating AI inferencing with external KV Cache on Managed Lustre",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">The demand for AI inference infrastructure is accelerating, with market spend expected to soon surpass investment in training the models themselves. This growth is driven by the demand for richer experiences, particularly through support for larger context windows and the rise of agentic AI. As organizations aim to improve user experience while optimizing costs, efficient gestion of inference resources is paramou",
+    "link": "https://cloud.google.com/blog/products/storage-data-transfer/choosing-google-cloud-managed-lustre-for-your-external-kv-cache/",
+    "published_date": "2025-10-31T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "infrastructure",
+      "devops",
+      "ia",
+      "stockage",
+      "base-de-données",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.675Z",
+    "updated_at": "2025-11-03T21:05:28.675Z"
+  },
+  {
+    "id": "454080975",
+    "title": "présentation de the Log Analytics query builder: Easier analytics for your logs",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">As a DevOps engineer, Site fiabilité Engineer, or application developer, how many times have you wrestled with complex queries to get the insights you need? Have you wished that there was an easier way to troubleshoot, identify root causes, and verify fixes, without being a SQL expert? We hear you loud and clear. That's why we're thrilled to announce the general disponibilité of the </span><strong style=\"vertical-a",
+    "link": "https://cloud.google.com/blog/products/management-tools/new-log-analytics-query-builder-simplifies-writing-sql-code/",
+    "published_date": "2025-10-31T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "devops",
+      "ia",
+      "stockage",
+      "réseau",
+      "base-de-données",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.676Z",
+    "updated_at": "2025-11-03T21:05:28.676Z"
+  },
+  {
+    "id": "182145708",
+    "title": "Why GKE & Gemini CLI are better together",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">cloud-native development is constantly evolving, and at Google, we're dedicated to empowering developers and operators with tools that are both powerful and intuitive. </span></p> <p><span style=\"vertical-align: baseline;\">Today, we're thrilled to dive into how the </span><a href=\"https://github.com/google-gemini/gemini-cli\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: base",
+    "link": "https://cloud.google.com/blog/products/containers-kubernetes/gke-and-gemini-cli-work-better-together/",
+    "published_date": "2025-10-31T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "infrastructure",
+      "devops",
+      "multi-cloud",
+      "ia",
+      "stockage",
+      "serverless",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.680Z",
+    "updated_at": "2025-11-03T21:05:28.680Z"
+  },
+  {
+    "id": "1242257181",
+    "title": "What Google cloud announced in AI this month",
+    "description": "<div class=\"block-paragraph\"><p data-block-key=\"wws10\"><b><i>Editor’s note</i></b><i>: Want to keep up with the latest from Google cloud? Check back here for a monthly recap of our latest mises à jour, announcements, resources, events, learning opportunities, and more.</i></p><hr/><p data-block-key=\"3o743\"></p></div> <div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">From announcing the new front door for entreprise AI and supercharged infrastructure, to powerful new too",
+    "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+    "published_date": "2025-10-31T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": "FaaS",
+    "cloud_provider": "AWS",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "multi-cloud",
+      "migration",
+      "ia",
+      "stockage",
+      "réseau",
+      "base-de-données",
+      "serverless",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.689Z",
+    "updated_at": "2025-11-03T21:05:28.689Z"
+  },
+  {
+    "id": "2139537696",
+    "title": "Talking shop: 7 ways conversational AI agents open up possibilities for designers and developers",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Remember when online shopping meant typing specific keywords into a rigid search bar and endlessly scrolling through irrelevant results? Traditional e-commerce search, while common, helps only about </span><a href=\"https://cloud.google.com/blog/topics/retail/new-research-on-search-abandonment-in-retail?e=48754805\"><span style=\"text-decoration: underline; vertical-align: baseline;\">1 in 10 consumers</span></a><span s",
+    "link": "https://cloud.google.com/blog/products/ai-machine-learning/how-to-design-conversational-ai-agents/",
+    "published_date": "2025-10-31T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "ia",
+      "stockage",
+      "serverless",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.690Z",
+    "updated_at": "2025-11-03T21:05:28.690Z"
+  },
+  {
+    "id": "1674831897",
+    "title": "Dossier : Bien tailler sa data pour r�ussir ses projets IA",
+    "description": "Sommaire 1 - Un guichet de services unifi&eacute;s pour mieux pr&eacute;parer les donn&eacute;es Sans une pr&eacute;paration rigoureuse des donn&eacute;es, (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-dossier-bien-tailler-sa-data-pour-reussir-ses-projets-ia-98359.html",
+    "published_date": "2025-10-31T15:51:37.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "1786248059",
+    "title": "En pr�vention, Microsoft bloque les aper�us de fichiers t�l�charg�s",
+    "description": "Avec l&rsquo;augmentation des cyberattaques ciblant les utilisateurs Windows, Microsoft renforce la s&eacute;curit&eacute; de son syst&egrave;me d&rsquo;exploitation (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-en-prevention-microsoft-bloque-les-apercus-de-fichiers-telecharges-98323.html",
+    "published_date": "2025-10-31T15:20:12.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.708Z",
+    "updated_at": "2025-11-03T21:05:28.708Z"
+  },
+  {
+    "id": "1912266986",
+    "title": "Cool stuff Google cloud customers built, Oct. edition: Research agents, a World Series hit, agentic \"teams\" & more",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"font-style: italic; vertical-align: baseline;\">AI and cloud technology are reshaping every corner of every industry around the world. Without our customers, there would be no Google cloud, as they are the ones building the future on our platform. In this </span><a href=\"https://cloud.google.com/blog/topics/customers/cool-stuff-google-cloud-customers-built-monthly-round-up\"><span style=\"font-style: italic; text-decoration: underline; vertical-",
+    "link": "https://cloud.google.com/blog/topics/customers/cool-stuff-google-cloud-customers-built-monthly-round-up/",
+    "published_date": "2025-10-31T15:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "migration",
+      "ia",
+      "base-de-données",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.693Z",
+    "updated_at": "2025-11-03T21:05:28.693Z"
+  },
+  {
+    "id": "526178725",
+    "title": "En Bretagne le d�ficit de profils qualifi�s p�se sur les entreprises IT",
+    "description": "Dynamique, la r&eacute;gion Bretagne compte 46 000 emplois de cadres dans le num&eacute;rique, r&eacute;partis sur 753 &eacute;tablissements, ce qui en (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-en-bretagne-le-deficit-de-profils-qualifies-pese-sur-les-entreprises-it-98355.html",
+    "published_date": "2025-10-31T14:10:33.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.708Z",
+    "updated_at": "2025-11-03T21:05:28.708Z"
+  },
+  {
+    "id": "1719954911",
+    "title": "ServiceNow met � jour son SLM open source Apriel",
+    "description": "Profitant de la GTC de Nvidia qui s&rsquo;est d&eacute;roul&eacute;e cette semaine &agrave; Wahsington, ServiceNow a annonc&eacute; une version mise &agrave; (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-servicenow-met-a-jour-son-slm-open-source-apriel-98356.html",
+    "published_date": "2025-10-31T13:49:31.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "924954380",
+    "title": "Ce bug peut faire planter des milliards de navigateurs Chromium : Chrome, Edge, ChatGPT Atlas, etc&#8230;!",
+    "description": "Brash, c'est le nom de l'exploit qui peut faire planter, en quelques secondes, les navigateurs Chromium : Google Chrome, Edge, Brave, ChatGPT Atlas, etc... The post Ce bug peut faire planter des milliards de navigateurs Chromium : Chrome, Edge, ChatGPT Atlas, etc…! first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/ce-bug-peut-faire-planter-des-milliards-de-navigateurs-chromium/",
+    "published_date": "2025-10-31T13:17:52.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1642326332",
+    "title": "IA g�n�rative : alli�e des d�veloppeurs, pas un substitut",
+    "description": "L&rsquo;&eacute;criture de code, simple &eacute;tape d&rsquo;un cycle complet de d&eacute;veloppement, b&eacute;n&eacute;ficie grandement des avanc&eacute;es (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-ia-generative-alliee-des-developpeurs-pas-un-substitut-98293.html",
+    "published_date": "2025-10-31T10:51:10.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.708Z",
+    "updated_at": "2025-11-03T21:05:28.708Z"
+  },
+  {
+    "id": "1616960393",
+    "title": "La maintenance industrielle cale sur sa transformation digitale",
+    "description": "Les &eacute;quipes de maintenance industrielle seraient-elles les grandes oubli&eacute;es de la transformation digitale des usines, dans les entreprises (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-la-maintenance-industrielle-cale-sur-sa-transformation-digitale-98353.html",
+    "published_date": "2025-10-31T09:25:32.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "177743080",
+    "title": "Barracuda One : automatisation renforc�e pour les MSP",
+    "description": "Barracuda renforce les fonctionnalit&eacute;s de sa plateforme MSP Barracuda One, lesquelles permettent d&eacute;j&agrave;, selon Michelle Hodges, (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-barracuda-one-automatisation-renforcee-pour-les-msp-98342.html",
+    "published_date": "2025-10-31T09:01:56.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "serverless",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.709Z",
+    "updated_at": "2025-11-03T21:05:28.709Z"
+  },
+  {
+    "id": "265492599",
+    "title": "Face aux tensions g�opolitiques, les DSI misent sur des partenaires locaux",
+    "description": "50% des d&eacute;cideurs IT hors des &Eacute;tats-Unis anticipent des changements dans leur collaboration avec les fournisseurs de technologies, en raison (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-face-aux-tensions-geopolitiques-les-dsi-misent-sur-des-partenaires-locaux-98352.html",
+    "published_date": "2025-10-31T08:56:51.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.709Z",
+    "updated_at": "2025-11-03T21:05:28.709Z"
+  },
+  {
+    "id": "202512432",
+    "title": "Sécu&#8217; en bref &#8211; ANSSI : bien architecturer un système de journalisation",
+    "description": "On décrypte les points clés du guide ANSSI pour vous aider à concevoir une architecture robuste et efficace d'un système de journalisation. The post Sécu’ en bref – ANSSI : bien architecturer un système de journalisation first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/secu-en-bref-anssi-bien-architecturer-un-systeme-de-journalisation/",
+    "published_date": "2025-10-31T08:45:00.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.711Z",
+    "updated_at": "2025-11-03T21:05:28.711Z"
+  },
+  {
+    "id": "1538687066",
+    "title": "Windows : Microsoft change le nom des mises à jour dans Windows Update",
+    "description": "Microsoft a pris la décision de changer le nom des mises à jour dans Windows Update sur Windows. Mauvaise nouvelle : la date de ne sera plus précisée. The post Windows : Microsoft change le nom des mises à jour dans Windows Update first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/windows-microsoft-change-le-nom-des-mises-a-jour-dans-windows-update/",
+    "published_date": "2025-10-31T07:54:40.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.712Z",
+    "updated_at": "2025-11-03T21:05:28.712Z"
+  },
+  {
+    "id": "550043902",
+    "title": "Les conseils de la NSA et de la CISA pour sécuriser un serveur Microsoft Exchange",
+    "description": "Un nouveau guide publié par la NSA et la CISA regroupe une dizaine de recommandations à appliquer sur Exchange Server pour améliorer la sécurité. The post Les conseils de la NSA et de la CISA pour sécuriser un serveur Microsoft Exchange first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/securiser-serveur-exchange-recommandations-nsa/",
+    "published_date": "2025-10-31T07:09:58.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.712Z",
+    "updated_at": "2025-11-03T21:05:28.712Z"
+  },
+  {
+    "id": "121148797",
+    "title": "Proton �tend son assistant IA Lumo aux entreprises",
+    "description": "La soci&eacute;t&eacute; suisse, Proton, connue pour sa messagerie s&eacute;curis&eacute;e, son VPN et d'autres solutions (Drive, Pass) a des ambitions (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-proton-etend-son-assistant-ia-lumo-aux-entreprises-98335.html",
+    "published_date": "2025-10-30T16:18:28.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "259061003",
+    "title": "PQC in plaintext: How we're helping customers prepare for a quantum-safe future",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Google has been working on making computing quantum safe for almost a decade. We’ve been rolling out post-quantum cryptography in our infrastructure for internal and customer services, and now we’re at the level where you can get hands-on — and we’re here to help.</span></p> <p><span style=\"vertical-align: baseline;\">We’ve </span><a href=\"https://bughunters.google.com/blog/5108747984306176/google-s-menace-model-for-",
+    "link": "https://cloud.google.com/blog/products/identity-security/how-were-helping-customers-prepare-for-a-quantum-safe-future/",
+    "published_date": "2025-10-30T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "multi-cloud",
+      "migration",
+      "ia",
+      "réseau",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.694Z",
+    "updated_at": "2025-11-03T21:05:28.694Z"
+  },
+  {
+    "id": "1847705212",
+    "title": "What’s new with Google Data cloud",
+    "description": "<div class=\"block-paragraph_advanced\"><h3><strong style=\"vertical-align: baseline;\"><strong style=\"vertical-align: baseline;\"><span><strong style=\"vertical-align: baseline;\">October 24 - October 31</strong></span></strong></strong></h3> <ul> <li><span style=\"vertical-align: baseline;\"><span style=\"vertical-align: baseline;\"><span style=\"vertical-align: baseline;\"><span style=\"vertical-align: baseline;\">Dive into the newest Google cloud Tech Bytes videos for </span><a href=\"https://www.youtube.co",
+    "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+    "published_date": "2025-10-30T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": "FaaS",
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "multi-cloud",
+      "migration",
+      "ia",
+      "stockage",
+      "réseau",
+      "base-de-données",
+      "serverless",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.699Z",
+    "updated_at": "2025-11-03T21:05:28.699Z"
+  },
+  {
+    "id": "733849750",
+    "title": "How Global Payments built a resilient architecture for scale with cloud SQL",
+    "description": "<div class=\"block-paragraph_advanced\"><p><strong style=\"font-style: italic; vertical-align: baseline;\">Editor’s note: </strong><span style=\"font-style: italic; vertical-align: baseline;\">When payments are your product, downtime isn’t an option. To meet the critical demands of global disponibilité, Global Payments partnered with the Google cloud product team to architect a resilient, multi-region solution leveraging cloud SQL entreprise Plus. This collaboration ensures enhanced uptime and streamli",
+    "link": "https://cloud.google.com/blog/topics/financial-services/how-global-payments-built-a-resilient-architecture-for-scale-with-cloud-sql/",
+    "published_date": "2025-10-30T16:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "ia",
+      "stockage",
+      "base-de-données",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.701Z",
+    "updated_at": "2025-11-03T21:05:28.701Z"
+  },
+  {
+    "id": "712957735",
+    "title": "NAS Synology : comment auto-héberger immich avec Docker ?",
+    "description": "Ce tutoriel explique comment installer immich sur un NAS Synology à l'aide de Docker et comment ajouter une bibliothèque externe située sur le NAS. The post NAS Synology : comment auto-héberger immich avec Docker ? first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/nas-synology-comment-auto-heberger-immich-avec-docker/",
+    "published_date": "2025-10-30T16:00:00.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "devops",
+      "ia"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.712Z",
+    "updated_at": "2025-11-03T21:05:28.712Z"
+  },
+  {
+    "id": "9399506",
+    "title": "Hexatrust ouvre la 5e �dition de son acc�l�rateur de start-ups",
+    "description": "Depuis 2021, l&rsquo;association fran&ccedil;aise des entreprises en cybers&eacute;curit&eacute; Hexatrust propose un plan baptis&eacute; Acc&eacute;l&eacute;rateur (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-hexatrust-ouvre-la-5e-edition-de-son-accelerateur-de-start-ups-98347.html",
+    "published_date": "2025-10-30T14:23:27.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.709Z",
+    "updated_at": "2025-11-03T21:05:28.709Z"
+  },
+  {
+    "id": "1758933185",
+    "title": "Avec Agent HQ, GitHub orchestre les agents IA de codage",
+    "description": "Face &agrave; la prolif&eacute;ration des agents IA de codage, GitHub a eu l&rsquo;id&eacute;e de r&eacute;unir la plupart d&rsquo;entre eux dans une plateforme (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-avec-agent-hq-github-orchestre-les-agents-ia-de-codage-98348.html",
+    "published_date": "2025-10-30T13:59:56.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "devops",
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.706Z",
+    "updated_at": "2025-11-03T21:05:28.706Z"
+  },
+  {
+    "id": "54818562",
+    "title": "Une faille dans Microsoft 365 Copilot exfiltre des donn�es",
+    "description": "La s&eacute;curit&eacute; des services IA reste toujours un pr&eacute;occupation des DSI et des RSSI. Il faut dire que les chercheurs trouvent de plus (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-une-faille-dans-microsoft-365-copilot-exfiltre-des-donnees-98346.html",
+    "published_date": "2025-10-30T13:07:15.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "385409811",
+    "title": "Google Cloud optimise Vertex AI Training",
+    "description": "De plus en plus d&rsquo;entreprises cherchent &agrave; cr&eacute;er ou &agrave; personnaliser des mod&egrave;les d&rsquo;IA. Pour r&eacute;pondre &agrave; (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-google-cloud-optimise-vertex-ai-training-98344.html",
+    "published_date": "2025-10-30T11:30:43.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "229052931",
+    "title": "Panne Microsoft Azure suite � une erreur de configuration du CDN",
+    "description": "Apr&egrave;s la panne g&eacute;ante d'AWS, Microsoft Azure a &eacute;galement subi une importante interruption de service. En fin d&rsquo;apr&egrave;s-midi (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-panne-microsoft-azure-suite-a-une-erreur-de-configuration-du-cdn-98343.html",
+    "published_date": "2025-10-30T10:35:25.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "réseau",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "354218989",
+    "title": "Windows 11 26H1 : une future version en préparation, mais pas pour tous les ordinateurs !",
+    "description": "Windows 11 26H1 pourrait arriver début 2026, mais uniquement sur certaines machines, en particulier celles équipées avec la puce Snapdragon X2 Elite. The post Windows 11 26H1 : une future version en préparation, mais pas pour tous les ordinateurs ! first appeared on IT-Connect.",
+    "link": "https://www.it-connect.fr/windows-11-26h1-une-future-version-en-preparation/",
+    "published_date": "2025-10-30T09:14:30.000Z",
+    "category": "devops",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "devops"
+    ],
+    "source": "IT-Connect",
+    "created_at": "2025-11-03T21:05:28.712Z",
+    "updated_at": "2025-11-03T21:05:28.712Z"
+  },
+  {
+    "id": "1462628336",
+    "title": "Master multi-tasking with the Jules extension for Gemini CLI",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Tasks like fixing minor bugs, patching vulnerabilities, or updating dependencies can interrupt your workflow and drain productivity, whether you're deep in a coding session or just starting your day.</span></p> <p><span style=\"vertical-align: baseline;\">With the new Jules extension for Gemini CLI we </span><a href=\"https://developers.googleblog.com/en/présentation de-the-jules-extension-for-gemini-cli\" rel=\"noopener\" ta",
+    "link": "https://cloud.google.com/blog/topics/developers-practitioners/master-multi-tasking-with-the-jules-extension-for-gemini-cli/",
+    "published_date": "2025-10-30T09:09:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "devops",
+      "ia",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.702Z",
+    "updated_at": "2025-11-03T21:05:28.702Z"
+  },
+  {
+    "id": "226113795",
+    "title": "Apr�s des tests, Extreme Networks int�gre son agent Service dans One",
+    "description": "Les agents IA commencent &agrave; se diffuser dans les diff&eacute;rentes briques de l&rsquo;IT et notamment dans le r&eacute;seau. Dernier exemple, Extreme (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-apres-des-tests-extreme-networks-integre-son-agent-service-dans-one-98334.html",
+    "published_date": "2025-10-29T15:57:14.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "réseau",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "1573221799",
+    "title": "Le framework Monarch facilite la programmation sur des clusters IA",
+    "description": "Dans le domaine de l&rsquo;IA, le d&eacute;veloppement d&rsquo;applications fait appel &agrave; des ressources distribu&eacute;es sur plusieurs clusters. (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-le-framework-monarch-facilite-la-programmation-sur-des-clusters-ia-98333.html",
+    "published_date": "2025-10-29T14:37:10.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "1061428484",
+    "title": "Avec NVQLink et Cuda-Q, Nvidia acc�l�re sur le quantique",
+    "description": "A l&rsquo;occasion de la conf&eacute;rence GTC qui se d&eacute;roule &agrave; Washington, Nvidia s&rsquo;est projet&eacute; dans l&rsquo;avenir en s&rsquo;int&eacute;ressant (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-avec-nvqlink-et-cuda-q-nvidia-accelere-sur-le-quantique-98331.html",
+    "published_date": "2025-10-29T13:37:54.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "1848044443",
+    "title": "Karine B�guin prend les r�nes du Campus cyber Occitanie",
+    "description": "Depuis quelques ann&eacute;es, le Campus cyber bas&eacute; &agrave; la D&eacute;fense essaime en r&eacute;gion. Plusieurs annexes locales ont vu le jour (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-karine-beguin-prend-les-renes-du-campus-cyber-occitanie-98330.html",
+    "published_date": "2025-10-29T11:40:41.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.710Z",
+    "updated_at": "2025-11-03T21:05:28.710Z"
+  },
+  {
+    "id": "1286128851",
+    "title": "Les ransomwares dop�s � l'IA, une menace s�rieuse pour les RSSI",
+    "description": "De r&eacute;centes &eacute;tudes men&eacute;es par nos confr&egrave;res de CSO et CrowdStrike montrent que l&rsquo;IA acc&eacute;l&egrave;re (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-les-ransomwares-dopes-a-l-ia-une-menace-serieuse-pour-les-rssi-98266.html",
+    "published_date": "2025-10-29T11:19:13.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.710Z",
+    "updated_at": "2025-11-03T21:05:28.710Z"
+  },
+  {
+    "id": "939001033",
+    "title": "A New Era: Highlights from Google Public Sector Summit",
+    "description": "<div class=\"block-paragraph\"><p data-block-key=\"p0q92\">Welcome to a new era, marked by unprecedented innovation, greater efficiency, elevated citizen experiences, and profound mission impact, all driven by groundbreaking advancements in technology. At the Google Public Sector Summit today in Washington D.C., public sector leaders are discussing the implications of these opportunities and how to re-imagine what’s possible.</p><p data-block-key=\"dgeh7\">Organizations across the public sector are re",
+    "link": "https://cloud.google.com/blog/topics/public-sector/a-new-era-highlights-from-google-public-sector-summit/",
+    "published_date": "2025-10-29T11:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "ia",
+      "réseau",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.703Z",
+    "updated_at": "2025-11-03T21:05:28.703Z"
+  },
+  {
+    "id": "223087735",
+    "title": "Fabrice Bru, Cesin : � Les RSSI ne sont plus uniquement des techniciens �",
+    "description": "Pr&eacute;sident du Club des experts en s&eacute;curit&eacute; de l'information et du num&eacute;rique (Cesin) qui rassemble 1200 membres, depuis le d&eacute;but (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-fabrice-bru-cesin--les-rssi-ne-sont-plus-uniquement-des-techniciens-98328.html",
+    "published_date": "2025-10-29T09:52:02.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.710Z",
+    "updated_at": "2025-11-03T21:05:28.710Z"
+  },
+  {
+    "id": "336954744",
+    "title": "Le d�ploiement des logiciels reste une tension en entreprise",
+    "description": "Malgr&eacute; une num&eacute;risation croissante, les entreprises fran&ccedil;aises peinent encore &agrave; tirer pleinement parti de leurs investissements (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-le-deploiement-des-logiciels-reste-une-tension-en-entreprise-98238.html",
+    "published_date": "2025-10-29T09:51:42.000Z",
+    "category": "securite",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "securite"
+    ],
+    "source": "Le Monde Informatique - Sécurité",
+    "created_at": "2025-11-03T21:05:28.710Z",
+    "updated_at": "2025-11-03T21:05:28.710Z"
+  },
+  {
+    "id": "2116336862",
+    "title": "Announcing docs.cloud.google.com: The new home for Google cloud documentation",
+    "description": "<div class=\"block-paragraph_advanced\"><p><strong style=\"vertical-align: baseline;\">We've reached a significant milestone</strong><span style=\"vertical-align: baseline;\"> in improving our documentation experience with the launch of a new, dedicated home for all Google cloud technical documentation at </span><a href=\"https://docs.cloud.google.com\"><strong style=\"text-decoration: underline; vertical-align: baseline;\">https://docs.cloud.google.com</strong></a><span style=\"vertical-align: baseline;\">",
+    "link": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-docscloudgooglecom-the-new-home-for-google-cloud-documentation/",
+    "published_date": "2025-10-29T09:11:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "migration",
+      "ia",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.704Z",
+    "updated_at": "2025-11-03T21:05:28.704Z"
+  },
+  {
+    "id": "1743252527",
+    "title": "Les contours flous du contrat entre la Cnaf et VMware",
+    "description": "Un contrat rendu public par un communiqu&eacute; du fournisseur de technologie, dont... personne ne veut parler plus avant. C'est peu dire qu'une certaine (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-les-contours-flous-du-contrat-entre-la-cnaf-et-vmware-98326.html",
+    "published_date": "2025-10-29T08:59:38.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "397337224",
+    "title": "Shade bouscule le stockage m�dia avec une solution tout-en-un dop�e � l'IA�",
+    "description": "C&rsquo;est &agrave; l&rsquo;occasion d&rsquo;un IT Press Tour, d&eacute;but octobre &agrave; New York, que Brandon Fan, CEO et co-fondateur de Shade, (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-shade-bouscule-le-stockage-media-avec-une-solution-tout-en-un-dopee-a-l-ia�-98312.html",
+    "published_date": "2025-10-29T08:59:10.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "stockage",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "455631572",
+    "title": "Build more accurate AI applications with Amazon Nova Web Grounding",
+    "description": "AWS announced Amazon Nova Web Grounding, a new built-in tool for Nova models on Amazon Bedrock that automatically retrieves current, cited information to reduce AI hallucinations and improve accuracy in applications requiring up-to-date factual data.",
+    "link": "https://aws.amazon.com/blogs/aws/build-more-accurate-ai-applications-with-amazon-nova-web-grounding/",
+    "published_date": "2025-10-28T23:59:17.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.642Z",
+    "updated_at": "2025-11-03T21:05:28.642Z"
+  },
+  {
+    "id": "262272588",
+    "title": "The Blueprint: How Giles AI transforms medical research with conversational AI",
+    "description": "<div class=\"block-paragraph_advanced\"><p><span style=\"font-style: italic; vertical-align: baseline;\">Welcome to The Blueprint, a new fonctionnalité where we highlight how Google cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work. </span></p> <h3><strong style=\"vertical-align: baseline;\">The challenge: </strong></h3> <p><a href=\"https://giles.app/\" rel=\"noopener\" target=\"_blan",
+    "link": "https://cloud.google.com/blog/products/ai-machine-learning/the-blueprint-giles-ai-transforming-medical-research-conversational-generative-ai/",
+    "published_date": "2025-10-28T19:00:00.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": "GCP",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "migration",
+      "ia",
+      "stockage",
+      "base-de-données",
+      "cloud"
+    ],
+    "source": "Google Cloud Blog",
+    "created_at": "2025-11-03T21:05:28.705Z",
+    "updated_at": "2025-11-03T21:05:28.705Z"
+  },
+  {
+    "id": "800503575",
+    "title": "Nvidia investit 1 Md$ dans Nokia",
+    "description": "Apr&egrave;s s&rsquo;&ecirc;tre invit&eacute; au capital d&rsquo;Intel (une op&eacute;ration estim&eacute;e &agrave; 5 Md$), Nvidia prend pied chez Nokia. (...)",
+    "link": "https://www.lemondeinformatique.fr/actualites/lire-nvidia-investit-1-md$-dans-nokia-98324.html",
+    "published_date": "2025-10-28T17:21:29.000Z",
+    "category": "cloud",
+    "service_type": null,
+    "cloud_provider": null,
+    "tags": [
+      "ia",
+      "cloud"
+    ],
+    "source": "Le Monde Informatique - Cloud",
+    "created_at": "2025-11-03T21:05:28.707Z",
+    "updated_at": "2025-11-03T21:05:28.707Z"
+  },
+  {
+    "id": "188026785",
+    "title": "Amazon Nova Multimodal Embeddings: State-of-the-art embedding model for agentic RAG and semantic search",
+    "description": "Amazon Nova Multimodal Embeddings is a new state-of-the-art embedding model disponible in Amazon Bedrock. It is the industry’s first embedding model that supports text, documents, images, video, and audio through a single unified model, enabling cross-modal retrieval and semantic search applications with leading accuracy, at industry-leading costs.",
+    "link": "https://aws.amazon.com/blogs/aws/amazon-nova-multimodal-embeddings-now-available-in-amazon-bedrock/",
+    "published_date": "2025-10-28T15:12:38.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.643Z",
+    "updated_at": "2025-11-03T21:05:28.643Z"
+  },
+  {
+    "id": "501266522",
+    "title": "AWS Weekly Roundup: AWS RTB Fabric, AWS Customer Carbon Footprint Tool, AWS Secret-West Region, and more (October 27, 2025)",
+    "description": "This week started with challenges for many using services in the the North Virginia (us-east-1) Region. On Monday, we experienced a service disruption affecting DynamoDB and several other services due to a DNS configuration problem. The issue has been fully resolved, and you can read the full details in our official summary. As someone who […]",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-aws-rtb-fabric-aws-customer-carbon-footprint-tool-aws-secret-west-region-and-more-october-27-2025/",
+    "published_date": "2025-10-27T16:37:17.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.643Z",
+    "updated_at": "2025-11-03T21:05:28.643Z"
+  },
+  {
+    "id": "1128583119",
+    "title": "présentation de AWS RTB Fabric for real-time advertising technology workloads",
+    "description": "AWS RTB Fabric is a fully managed service designed for real-time bidding advertising workloads that enables AdTech companies to connect with their supply and demand partners through a dedicated, high-performance network environment, delivering single-digit millisecond performance and up to 80% lower networking costs compared to standard cloud connections while eliminating the need for colocation infrastructure or upfront commitments.",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-aws-rtb-fabric-for-real-time-advertising-technology-workloads/",
+    "published_date": "2025-10-23T08:32:37.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "infrastructure",
+      "réseau"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.643Z",
+    "updated_at": "2025-11-03T21:05:28.643Z"
+  },
+  {
+    "id": "461028203",
+    "title": "AWS Weekly Roundup: Kiro waitlist, EBS Volume Clones, EC2 Capacity Manager, and more (October 20, 2025)",
+    "description": "I’ve been inspired by all the activities that tech communities around the world have been hosting and participating in throughout the year. Here in the southern hemisphere we’re starting to dream about our upcoming summer breaks and closing out on some of the activities we’ve initiated this year. The tech community in South Africa is […]",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-kiro-waitlist-ebs-volume-clones-ec2-capacity-manager-and-more-october-20-2025/",
+    "published_date": "2025-10-20T16:00:24.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.644Z",
+    "updated_at": "2025-11-03T21:05:28.644Z"
+  },
+  {
+    "id": "1838047243",
+    "title": "Monitor, analyze, and manage capacity usage from a single interface with Amazon EC2 Capacity Manager",
+    "description": "Amazon EC2 Capacity Manager is a new centralized solution that consolidates capacity surveillance and gestion across all AWS accounts and regions, eliminating operational overhead and providing optimization opportunities for EC2 infrastructure at scale.",
+    "link": "https://aws.amazon.com/blogs/aws/monitor-analyze-and-manage-capacity-usage-from-a-single-interface-with-amazon-ec2-capacity-manager/",
+    "published_date": "2025-10-16T15:48:12.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.644Z",
+    "updated_at": "2025-11-03T21:05:28.644Z"
+  },
+  {
+    "id": "1760311686",
+    "title": "présentation de Amazon EBS Volume Clones: Create instant copies of your EBS volumes",
+    "description": "AWS launched Amazon EBS Volume Clones, a new capability that allows users to create instant point-in-time copies of EBS volumes within the same disponibilité Zone with a single API call, eliminating the previous multi-step process of taking snapshots and creating volumes from them.",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-amazon-ebs-volume-clones-create-instant-copies-of-your-ebs-volumes/",
+    "published_date": "2025-10-14T21:35:05.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.645Z",
+    "updated_at": "2025-11-03T21:05:28.645Z"
+  },
+  {
+    "id": "2117018387",
+    "title": "AWS Transfer Family SFTP connectors now support VPC-based connectivity",
+    "description": "AWS Transfer Family SFTP connectors now support VPC-based connectivity, allowing secure file transfers between Amazon S3 and remote SFTP servers through your existing VPC infrastructure without exposing endpoints to the internet.",
+    "link": "https://aws.amazon.com/blogs/aws/aws-transfer-family-sftp-connectors-now-support-vpc-based-connectivity/",
+    "published_date": "2025-10-14T19:27:31.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "infrastructure",
+      "stockage",
+      "réseau"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.645Z",
+    "updated_at": "2025-11-03T21:05:28.645Z"
+  },
+  {
+    "id": "384206608",
+    "title": "AWS Weekly Roundup: Amazon Quick Suite, Amazon EC2, Amazon EKS, and more (October 13, 2025)",
+    "description": "This week I was at the inaugural AWS AI in Practice meetup from the AWS User Group UK. AI-assisted software development and agents were the focus of the evening! Next week I’ll be in Italy for Codemotion (Milan) and an AWS User Group meetup (Rome). My sessions there will be about AI agents and context […]",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-quick-suite-amazon-ec2-amazon-eks-and-more-october-13-2025/",
+    "published_date": "2025-10-13T16:24:15.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.646Z",
+    "updated_at": "2025-11-03T21:05:28.646Z"
+  },
+  {
+    "id": "1495217197",
+    "title": "Announcing Amazon Quick Suite: your agentic teammate for answering questions and taking action",
+    "description": "Amazon has announced Quick Suite, a new AI-powered workspace that combines research, business intelligence, and automatisation tools to help users analyze data and streamline workflows all in one place.",
+    "link": "https://aws.amazon.com/blogs/aws/reimagine-the-way-you-work-with-ai-agents-in-amazon-quick-suite/",
+    "published_date": "2025-10-09T15:42:04.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.646Z",
+    "updated_at": "2025-11-03T21:05:28.646Z"
+  },
+  {
+    "id": "1636356187",
+    "title": "New general-purpose Amazon EC2 M8a instances are maintenant disponible",
+    "description": "Amazon EC2 has launched new M8a instances powered by 5th Generation AMD EPYC processors, offering up to 30% better performance and 19% better price performance compared to M7a instances, along with improved memory bandwidth, networking, and stockage capabilities for various general-purpose workloads.",
+    "link": "https://aws.amazon.com/blogs/aws/new-general-purpose-amazon-ec2-m8a-instances-are-now-available/",
+    "published_date": "2025-10-08T19:03:27.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "stockage",
+      "réseau",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.646Z",
+    "updated_at": "2025-11-03T21:05:28.646Z"
+  },
+  {
+    "id": "1667628765",
+    "title": "présentation de new compute-optimized Amazon EC2 C8i and C8i-flex instances",
+    "description": "AWS launched compute-optimized C8i and C8i-flex EC2 instances powered by custom Intel Xeon 6 processors disponible only on AWS to offer up to 15% better price performance, 20% higher performance, and 2.5 times more memory throughput compared to previous generations.",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-new-compute-optimized-amazon-ec2-c8i-and-c8i-flex-instances/",
+    "published_date": "2025-10-06T20:33:28.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.647Z",
+    "updated_at": "2025-11-03T21:05:28.647Z"
+  },
+  {
+    "id": "2003458667",
+    "title": "AWS IAM Identity Center now supports customer-managed KMS keys for chiffrement at rest",
+    "description": "Gain control over chiffrement and comply with regulations using customer-managed keys for AWS IAM Identity Center's user data and passwords.",
+    "link": "https://aws.amazon.com/blogs/aws/aws-iam-identity-center-now-supports-customer-managed-kms-keys-for-encryption-at-rest/",
+    "published_date": "2025-10-06T19:52:06.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.647Z",
+    "updated_at": "2025-11-03T21:05:28.647Z"
+  },
+  {
+    "id": "552954188",
+    "title": "AWS Weekly Roundup: Amazon Bedrock, AWS Outposts, Amazon ECS Managed Instances, AWS Builder ID, and more (October 6, 2025)",
+    "description": "Last week, Anthropic’s Claude Sonnet 4.5—the world’s best coding model according to SWE-Bench – became disponible in Amazon Q command line interface (CLI) and Kiro. I’m excited about this for two reasons: First, a few weeks ago I spent 4 intensive days with a global customer delivering an AI-assisted development workshop, where I experienced firsthand […]",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-aws-outposts-amazon-ecs-managed-instances-aws-builder-id-and-more-october-6-2025/",
+    "published_date": "2025-10-06T15:42:39.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "ia",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.650Z",
+    "updated_at": "2025-11-03T21:05:28.650Z"
+  },
+  {
+    "id": "1535812166",
+    "title": "Announcing Amazon ECS Managed Instances for containerized applications",
+    "description": "Amazon ECS Managed Instances is a new compute option that eliminates infrastructure gestion overhead while giving you access to the broad suite of EC2 capabilities including the flexibility to select instance types, access reserved capacity, and advanced sécurité and observability configurations.",
+    "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-ecs-managed-instances-for-containerized-applications/",
+    "published_date": "2025-09-30T18:46:47.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "sécurité",
+      "infrastructure",
+      "devops",
+      "ia"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.650Z",
+    "updated_at": "2025-11-03T21:05:28.650Z"
+  },
+  {
+    "id": "871137726",
+    "title": "Announcing AWS Outposts third-party stockage integration with Dell and HPE",
+    "description": "AWS Outposts is now integrated with Dell PowerStore and HPE Alletra MP B10000 systems, enabling customers to seamlessly use their on-premises external stockage infrastructure with AWS services while maintaining data residency requirements.",
+    "link": "https://aws.amazon.com/blogs/aws/announcing-aws-outposts-third-party-storage-integration-with-dell-and-hpe/",
+    "published_date": "2025-09-30T16:39:54.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "infrastructure",
+      "ia",
+      "stockage"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.651Z",
+    "updated_at": "2025-11-03T21:05:28.651Z"
+  },
+  {
+    "id": "1296739551",
+    "title": "présentation de Claude Sonnet 4.5 in Amazon Bedrock: Anthropic’s most intelligent model, best for coding and complex agents",
+    "description": "Amazon Web Services announces Claude Sonnet 4.5 in Amazon Bedrock, featuring advanced capabilities in coding, tool handling, and long-horizon tasks, with améliorations in memory gestion, context processing, and industry-specific applications across finance, research, and cybersecurity sectors.",
+    "link": "https://aws.amazon.com/blogs/aws/introducing-claude-sonnet-4-5-in-amazon-bedrock-anthropics-most-intelligent-model-best-for-coding-and-complex-agents/",
+    "published_date": "2025-09-29T17:56:16.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "sécurité",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.651Z",
+    "updated_at": "2025-11-03T21:05:28.651Z"
+  },
+  {
+    "id": "1090644972",
+    "title": "AWS Weekly Roundup: Amazon S3, Amazon Bedrock AgentCore, AWS X-Ray and more (September 29, 2025)",
+    "description": "Wow, can you all believe it? We’re nearing the end of the year already. Next thing you know, AWS re:Invent will be here! This is our biggest event that takes place every year in Las Vegas from December 1st to December 5th where we reveal and version many of the things that we’ve been working […]",
+    "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-s3-amazon-bedrock-agentcore-aws-x-ray-and-more-september-29-2025/",
+    "published_date": "2025-09-29T16:42:04.000Z",
+    "category": "infrastructure",
+    "service_type": null,
+    "cloud_provider": "AWS",
+    "tags": [
+      "stockage",
+      "infrastructure"
+    ],
+    "source": "AWS Blog",
+    "created_at": "2025-11-03T21:05:28.651Z",
+    "updated_at": "2025-11-03T21:05:28.651Z"
+  }
+]

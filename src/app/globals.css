@@ -1,0 +1,897 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========================================
+   OPTIMISATIONS PERFORMANCES GLOBALES
+   ======================================== */
+
+/* Préférences réduites de mouvement - PRIORITAIRE */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Containment global pour améliorer les performances de scroll */
+html {
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+}
+
+/* Optimisations GPU pour les éléments animés */
+.animate-float, .animate-float-delay, .animate-float-delay-2,
+.animate-blob, .animate-pulse, .animate-gradient-shift {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  contain: layout style paint;
+}
+
+/* Classes pour la réduction d'animations pendant le scroll */
+.scrolling .animate-float,
+.scrolling .animate-float-delay,
+.scrolling .animate-float-delay-2 {
+  animation-play-state: paused !important;
+}
+
+/* Body configuration optimisé */
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 23, 42);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Transitions uniquement pour les éléments interactifs */
+button, a, .interactive, [role="button"] {
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+}
+
+/* ========================================
+   ANIMATIONS & TRANSITIONS OPTIMISÉES MOBILE AMÉLIORÉES
+   ======================================== */
+
+/* Animation GPU accélérée pour les flottements - SCROLL OPTIMISÉE */
+
+/* ========================================
+   ANIMATIONS GLASSMORPHISM OPTIMISÉES
+   ======================================== */
+
+/* Animation blob pour effet glassmorphism - OPTIMISÉE */
+@keyframes blob {
+  0%, 100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  33% {
+    transform: translate3d(20px, -30px, 0) scale(1.05);
+  }
+  66% {
+    transform: translate3d(-15px, 15px, 0) scale(0.95);
+  }
+}
+
+.animate-blob {
+  animation: blob 8s infinite;
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Animations float OPTIMISÉES avec GPU acceleration */
+@keyframes float-optimized {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -8px, 0); }
+}
+
+@keyframes float-subtle {
+  0%, 100% { transform: translate3d(0, 0, 0); }
+  50% { transform: translate3d(0, -4px, 0); }
+}
+
+/* Animations adaptatives avec containment et optimisations */
+.animate-float {
+  animation: float-optimized 5s ease-in-out infinite;
+  will-change: transform;
+  transform: translateZ(0);
+  contain: layout style paint;
+}
+
+.animate-float-delay {
+  animation: float-optimized 6s ease-in-out infinite;
+  animation-delay: 1s;
+  will-change: transform;
+  transform: translateZ(0);
+  contain: layout style paint;
+}
+
+.animate-float-delay-2 {
+  animation: float-optimized 7s ease-in-out infinite;
+  animation-delay: 2s;
+  will-change: transform;
+  transform: translateZ(0);
+  contain: layout style paint;
+}
+
+/* Optimisations mobiles - GPU acceleration et animations réduites */
+@media (max-width: 768px) {
+  .animate-float {
+    animation: float-subtle 8s ease-in-out infinite;
+    will-change: auto;
+  }
+  
+  .animate-float-delay {
+    animation: float-subtle 9s ease-in-out infinite;
+    animation-delay: 1s;
+    will-change: auto;
+  }
+  
+  .animate-float-delay-2 {
+    animation: float-subtle 10s ease-in-out infinite;
+    animation-delay: 2s;
+    will-change: auto;
+  }
+  
+  /* Réduire les blurs sur mobile - coûteux en performance */
+  .blur-3xl {
+    filter: blur(12px) !important;
+  }
+  
+  .blur-2xl {
+    filter: blur(10px) !important;
+  }
+  
+  .backdrop-blur-sm, .backdrop-blur-md, .backdrop-blur-lg {
+    backdrop-filter: blur(8px) !important;
+  }
+  
+  /* Désactiver les animations blob sur mobile */
+  .animate-blob {
+    animation: none;
+    transform: translateZ(0);
+  }
+  
+  /* Gradients statiques sur mobile */
+  .animate-gradient-shift {
+    animation: none;
+    background-position: 50% 50%;
+  }
+}
+
+/* Optimisations pour appareils très faibles */
+@media (max-width: 768px) and (max-device-memory: 4GB) {
+  .animate-float, .animate-float-delay, .animate-float-delay-2,
+  .animate-pulse, .animate-pulse-fast, .animate-pulse-delay,
+  .animate-blob, .animate-gradient-shift {
+    animation: none !important;
+    transform: translateZ(0);
+  }
+  
+  .blur-3xl, .blur-2xl, .blur-xl {
+    filter: blur(6px) !important;
+  }
+}
+
+/* Blur optimisés pour desktop */
+.blur-3xl {
+  filter: blur(16px) !important;
+}
+
+.blur-2xl {
+  filter: blur(12px) !important;
+}
+
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px) !important;
+}
+
+/* Pulse optimisé avec GPU acceleration */
+.animate-pulse-glow, .animate-pulse, .animate-pulse-fast {
+  animation: pulse-optimized 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  will-change: opacity;
+  transform: translateZ(0);
+}
+
+.animate-pulse-delay {
+  animation: pulse-optimized 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  animation-delay: 1s;
+}
+
+@keyframes pulse-optimized {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+/* Gradients animés - OPTIMISÉS */
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 10s ease infinite;
+  will-change: background-position;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Classe pour appareils faibles détectés par JavaScript */
+.low-end-device .animate-float,
+.low-end-device .animate-float-delay,
+.low-end-device .animate-float-delay-2,
+.low-end-device .animate-blob,
+.low-end-device .animate-pulse,
+.low-end-device .animate-gradient-shift {
+  animation: none !important;
+  transform: translateZ(0);
+}
+
+.low-end-device .blur-3xl,
+.low-end-device .blur-2xl,
+.low-end-device .backdrop-blur-sm,
+.low-end-device .backdrop-blur-md,
+.low-end-device .backdrop-blur-lg {
+  filter: blur(4px) !important;
+  backdrop-filter: blur(4px) !important;
+}
+
+/* Reduced motion global */
+.reduce-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* ========================================
+   RESTAURATION DES EFFETS VISUELS CRITIQUES
+   ======================================== */
+
+/* Effets de hover RESTAURÉS - essentiels pour l'UX */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Text gradient - RENFORCÉ */
+.text-gradient {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+/* Backgrounds gradients - RESTAURÉS */
+.bg-gradient-animated {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #06b6d4, #ec4899);
+  background-size: 400% 400%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+/* ========================================
+   OPTIMISATIONS TOUCH & INTERACTIONS MOBILE
+   ======================================== */
+
+/* Touch targets optimisés selon guidelines Apple/Google */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px;
+}
+
+.touch-target-large {
+  min-width: 56px;
+  min-height: 56px;
+  padding: 12px;
+}
+
+/* Optimisations spécifiques mobile */
+@media (max-width: 768px) {
+  /* Feedback tactile optimisé */
+  .mobile-ripple {
+    position: relative;
+    overflow: hidden;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+  }
+  
+  .mobile-ripple:active {
+    transform: scale(0.98);
+  }
+  
+  .mobile-interactive:active {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  
+  /* Navigation mobile GPU accélérée */
+  .mobile-nav-optimized {
+    contain: layout style paint;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+  
+  /* Smooth scrolling mobile */
+  html {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /* Suppression du tap highlight */
+  * {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+  }
+  
+  /* Simplification des ombres sur mobile MAIS GARDÉES pour l'esthétique */
+  .shadow-lg, .shadow-xl, .shadow-2xl {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  /* Cards mobiles optimisées */
+  .mobile-card {
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .mobile-card:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Safe areas pour devices avec encoche */
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  
+  .safe-area-inset {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+/* ========================================
+   SCROLLBAR OPTIMISÉE
+   ======================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(248, 250, 252);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, rgb(59 130 246), rgb(139 92 246));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, rgb(37 99 235), rgb(124 58 237));
+}
+
+/* ========================================
+   UTILITAIRES DE PERFORMANCE + ESTHÉTIQUE
+   ======================================== */
+
+/* Line clamp pour performance */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Skeleton loader performant */
+@keyframes skeleton-shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, transparent, rgba(0,0,0,0.1), transparent);
+  background-size: 200px 100%;
+  animation: skeleton-shimmer 1.2s ease-in-out infinite;
+}
+
+/* Loading spinner optimisé */
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(59 130 246);
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ========================================
+   EFFETS DE VERRE (GLASSMORPHISM) SIMPLIFIÉS
+   ======================================== */
+
+/* Effet de verre moderne - Version simplifiée */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.4) !important;
+}
+
+.glass-effect-strong {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(20px) saturate(200%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(200%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 12px 40px rgba(31, 38, 135, 0.5) !important;
+}
+
+/* Navigation avec effet de verre */
+.glass-nav-item {
+  background: rgba(255, 255, 255, 0.12) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  color: #1e293b !important;
+  font-weight: 500 !important;
+}
+
+.glass-nav-item:hover {
+  background: rgba(59, 130, 246, 0.25) !important;
+  border: 1px solid rgba(59, 130, 246, 0.4) !important;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3) !important;
+  transform: translateY(-1px) !important;
+  color: #1e293b !important;
+}
+
+/* Élément actif */
+.glass-nav-item.nav-active {
+  background: linear-gradient(to right, rgb(37, 99, 235), rgb(147, 51, 234)) !important;
+  border: 1px solid rgba(59, 130, 246, 0.6) !important;
+  color: white !important;
+  font-weight: 600 !important;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.4) !important;
+}
+
+.glass-nav-item.nav-active:hover {
+  background: linear-gradient(to right, rgb(29, 78, 216), rgb(126, 34, 206)) !important;
+  box-shadow: 0 6px 25px rgba(59, 130, 246, 0.5) !important;
+  color: white !important;
+}
+
+/* Navigation mobile - Bouton hamburger */
+.mobile-glass-button {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  box-shadow: 0 4px 16px rgba(31, 38, 135, 0.3) !important;
+  color: #1e293b !important;
+}
+
+.mobile-glass-button:hover {
+  background: rgba(59, 130, 246, 0.3) !important;
+  border: 1px solid rgba(59, 130, 246, 0.5) !important;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4) !important;
+  color: #1e293b !important;
+}
+
+/* Effet de verre pour mobile menu */
+.mobile-glass-menu {
+  background: rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: -10px 0 50px rgba(31, 38, 135, 0.4) !important;
+}
+
+/* Effet de brillance sur le verre */
+.glass-shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.15),
+    transparent
+  );
+  transition: left 0.8s ease;
+  pointer-events: none;
+}
+
+.glass-shine:hover::before {
+  left: 100%;
+}
+
+/* Boutons modernes */
+.btn-modern {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.btn-modern:hover::before {
+  left: 100%;
+}
+
+/* Responsive utilities optimisées */
+.responsive-text {
+  font-size: clamp(0.875rem, 2.5vw, 1.125rem);
+}
+
+.responsive-heading {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+/* Classes no-scroll pour modals */
+.no-scroll {
+  overflow: hidden;
+  touch-action: none;
+}
+
+/* ========================================
+   ANIMATIONS SUPPLÉMENTAIRES POUR NAVIGATION
+   ======================================== */
+
+/* Animation de slide depuis le bas */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation de slide depuis le haut */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation de slide depuis la gauche */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation de slide depuis la droite */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation de zoom subtil */
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animation de rotation douce */
+@keyframes rotateIn {
+  from {
+    opacity: 0;
+    transform: rotate(-5deg) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+}
+
+/* Classes d'animation à appliquer */
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.6s ease-out;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.6s ease-out;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.6s ease-out;
+}
+
+.animate-zoom-in {
+  animation: zoomIn 0.5s ease-out;
+}
+
+.animate-rotate-in {
+  animation: rotateIn 0.6s ease-out;
+}
+
+/* Animation de pulsation douce pour attirer l'attention */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 2s ease-in-out infinite;
+}
+
+/* Animation de "bounce" subtile */
+@keyframes subtleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-subtle-bounce {
+  animation: subtleBounce 1s ease-in-out infinite;
+}
+
+/* Animation de fade in progressif */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Effet de shimmer pour les éléments en chargement */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(255, 255, 255, 0.3) 50%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Animation de bordure lumineuse */
+@keyframes borderGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.6), 0 0 30px rgba(139, 92, 246, 0.4);
+  }
+}
+
+.animate-border-glow {
+  animation: borderGlow 2s ease-in-out infinite;
+}
+
+/* Hover avec effet smooth */
+.hover-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-smooth:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Effet de glissement au scroll */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Animation de typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-effect {
+  overflow: hidden;
+  border-right: 2px solid;
+  white-space: nowrap;
+  animation: typing 3s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
+}
+
+/* Effet de vague pour les backgrounds */
+@keyframes wave {
+  0% {
+    transform: translateX(0) translateZ(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1);
+  }
+}
+
+.animate-wave {
+  animation: wave 10s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translateZ(0);
+}
+
+/* Glow effect pour les éléments importants */
+@keyframes glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(59, 130, 246, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 15px rgba(59, 130, 246, 0.8)) drop-shadow(0 0 25px rgba(139, 92, 246, 0.6));
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+/* Animation pour les icônes */
+.icon-hover {
+  transition: all 0.3s ease;
+}
+
+.icon-hover:hover {
+  transform: rotate(10deg) scale(1.1);
+}
+
+/* Animation de rebond lors du chargement */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-bounce-in {
+  animation: bounceIn 0.6s ease-out;
+}
+
+/* Stagger animations pour les listes */
+.stagger-item {
+  opacity: 0;
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.stagger-item:nth-child(1) { animation-delay: 0.1s; }
+.stagger-item:nth-child(2) { animation-delay: 0.2s; }
+.stagger-item:nth-child(3) { animation-delay: 0.3s; }
+.stagger-item:nth-child(4) { animation-delay: 0.4s; }
+.stagger-item:nth-child(5) { animation-delay: 0.5s; }
+.stagger-item:nth-child(6) { animation-delay: 0.6s; }
