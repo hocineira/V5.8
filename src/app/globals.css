@@ -16,6 +16,95 @@
   }
 }
 
+/* ========================================
+   OPTIMISATIONS SPÉCIFIQUES FIREFOX
+   Firefox a des problèmes majeurs avec backdrop-filter et blur
+   ======================================== */
+
+/* Détection Firefox via classe JS */
+.firefox-browser .glass-effect,
+.firefox-browser .glass-effect-strong,
+.firefox-browser .glass-nav-item,
+.firefox-browser .mobile-glass-button,
+.firefox-browser .mobile-glass-menu {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+
+.firefox-browser .glass-effect {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+.firefox-browser .glass-effect-strong {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.98) 100%) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Désactiver les animations lourdes sur Firefox */
+.firefox-browser .animate-blob,
+.firefox-browser .animate-pulse,
+.firefox-browser .animate-ping,
+.firefox-browser .animate-float,
+.firefox-browser .animate-float-delay,
+.firefox-browser .animate-float-delay-2,
+.firefox-browser .animate-gradient-shift {
+  animation: none !important;
+}
+
+/* Simplifier les blurs sur Firefox */
+.firefox-browser .blur-3xl,
+.firefox-browser .blur-2xl,
+.firefox-browser .blur-xl {
+  filter: none !important;
+  opacity: 0.15 !important;
+}
+
+.firefox-browser .backdrop-blur-sm,
+.firefox-browser .backdrop-blur-md,
+.firefox-browser .backdrop-blur-lg {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Navigation Firefox optimisée */
+.firefox-browser .glass-nav-item {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.firefox-browser .glass-nav-item:hover {
+  background: rgba(59, 130, 246, 0.1) !important;
+  border-color: rgba(59, 130, 246, 0.3) !important;
+}
+
+.firefox-browser .glass-nav-item.nav-active {
+  background: linear-gradient(to right, rgb(37, 99, 235), rgb(147, 51, 234)) !important;
+}
+
+/* Mobile menu Firefox */
+.firefox-browser .mobile-glass-menu {
+  background: rgba(255, 255, 255, 0.98) !important;
+  box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Réduire les ombres complexes sur Firefox */
+.firefox-browser .shadow-2xl,
+.firefox-browser .shadow-xl {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Optimiser les transitions sur Firefox */
+.firefox-browser * {
+  transition-duration: 0.15s !important;
+}
+
+/* Désactiver les effets de brillance sur Firefox */
+.firefox-browser .glass-shine::before {
+  display: none !important;
+}
+
 /* Containment global pour améliorer les performances de scroll */
 html {
   overscroll-behavior: contain;

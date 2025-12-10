@@ -110,12 +110,12 @@ const TechSkill = memo(function TechSkill({ skill, index }) {
   }
   
   return (
-    <div className="group relative bg-slate-800/60 backdrop-blur-sm border border-purple-500/30 rounded-xl p-6 hover:border-blue-400/60 hover:bg-slate-800/80 transition-all duration-300 hover:translate-y-[-4px] hover:shadow-xl hover:shadow-blue-500/20">
+    <div className="group relative bg-slate-800/60 border border-purple-500/30 rounded-xl p-6 hover:border-blue-400/60 hover:bg-slate-800/80 transition-all duration-300 hover:translate-y-[-4px] hover:shadow-xl hover:shadow-blue-500/20">
       <div className="flex items-start justify-between mb-4">
         <div className="p-3 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg group-hover:from-blue-400/30 group-hover:to-purple-400/30 transition-all duration-300 border border-blue-400/20">
           <Icon className="w-6 h-6 text-blue-300 group-hover:text-blue-200" />
         </div>
-        <div className={`w-3 h-3 rounded-full ${getStatusColor(skill.status)} opacity-80 animate-pulse`}></div>
+        <div className={`w-3 h-3 rounded-full ${getStatusColor(skill.status)} opacity-80`}></div>
       </div>
       <h3 className="text-white font-semibold text-lg mb-1 group-hover:text-blue-100">{skill.name}</h3>
       <p className="text-purple-300 text-sm font-medium mb-2 group-hover:text-purple-200">{skill.category}</p>
@@ -129,10 +129,10 @@ const ModernFeatureCard = memo(function ModernFeatureCard({ feature, index, onAc
   const Icon = feature.icon
   return (
     <Card 
-      className="group relative bg-slate-800/30 backdrop-blur-sm border border-slate-700/30 hover:border-cyan-400/50 hover:bg-slate-800/50 cursor-pointer transition-all duration-300 hover:translate-y-[-8px] overflow-hidden"
+      className="group relative bg-slate-800/30 border border-slate-700/30 hover:border-cyan-400/50 hover:bg-slate-800/50 cursor-pointer transition-all duration-300 hover:translate-y-[-8px] overflow-hidden"
       onClick={() => onAction(feature.href)}
     >
-      {/* Effet de lueur moderne */}
+      {/* Effet de lueur moderne - simplifié */}
       <div className="absolute inset-0 bg-gradient-to-r from-cyan-400/5 to-blue-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
       
       <CardHeader className="text-center pb-4 relative z-10">
@@ -183,24 +183,23 @@ export default function AccueilPage() {
           }}></div>
         </div>
         
-        {/* Éléments décoratifs tech bleu/violet - FORMES GÉOMÉTRIQUES SUPPRIMÉES */}
+        {/* Éléments décoratifs tech bleu/violet - SIMPLIFIÉ pour Firefox */}
         <div className="absolute inset-0">
-          {/* Seuls les effets lumineux subtils restent - pas de formes géométriques */}
-          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-blue-500/3 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-purple-500/3 rounded-full blur-3xl animate-pulse"></div>
-          <div className="absolute top-2/3 left-1/2 w-48 h-48 bg-violet-500/2 rounded-full blur-2xl animate-pulse"></div>
+          {/* Effets lumineux subtils sans animation */}
+          <div className="absolute top-1/4 left-1/3 w-64 h-64 bg-blue-500/3 rounded-full blur-2xl"></div>
+          <div className="absolute bottom-1/4 right-1/3 w-80 h-80 bg-purple-500/3 rounded-full blur-2xl"></div>
+          <div className="absolute top-2/3 left-1/2 w-48 h-48 bg-violet-500/2 rounded-full blur-xl"></div>
         </div>
 
         <div className="relative container mx-auto px-4 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-10rem)]">
             {/* Contenu principal */}
             <div className="space-y-8">
-              {/* Badge status avec couleurs technologiques bleu/violet - POINT PARFAITEMENT ALIGNÉ */}
+              {/* Badge status avec couleurs technologiques bleu/violet - SIMPLIFIÉ */}
               <ScaleIn delay={0.2} scale={0.7}>
-                <div className="inline-flex items-center gap-3 px-4 py-2 bg-slate-800/60 backdrop-blur-sm border border-blue-400/40 rounded-full shadow-lg shadow-blue-500/20">
+                <div className="inline-flex items-center gap-3 px-4 py-2 bg-slate-800/60 border border-blue-400/40 rounded-full shadow-lg shadow-blue-500/20">
                   <div className="relative flex items-center justify-center w-2 h-2">
-                    <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full animate-pulse"></div>
-                    <div className="absolute w-2 h-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full animate-ping opacity-75"></div>
+                    <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full"></div>
                   </div>
                   <span className="text-sm text-blue-300 font-medium">Infrastructure Active</span>
                 </div>
@@ -312,9 +311,9 @@ export default function AccueilPage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/20 to-transparent"></div>
                   </div>
               
-                  {/* Overlay avec infrastructure status */}
+                  {/* Overlay avec infrastructure status - SIMPLIFIÉ */}
                   <div className="absolute bottom-6 left-6 right-6">
-                    <div className="bg-slate-800/90 backdrop-blur-sm rounded-xl p-4 border border-cyan-400/30">
+                    <div className="bg-slate-800/90 rounded-xl p-4 border border-cyan-400/30">
                       <div className="flex items-center gap-2 text-cyan-300 mb-3">
                         <Network className="w-4 h-4" />
                         <span className="text-sm font-medium">Infrastructure SISR</span>
@@ -322,10 +321,7 @@ export default function AccueilPage() {
                       <div className="grid grid-cols-2 gap-3">
                         {StaticData.infrastructure.map((item, index) => (
                           <div key={index} className="flex items-center gap-2">
-                            <div className="relative w-2 h-2">
-                              <div className="absolute inset-0 w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
-                              <div className="absolute inset-0 w-2 h-2 bg-cyan-400 rounded-full animate-ping opacity-75"></div>
-                            </div>
+                            <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
                             <span className="text-xs text-slate-300">{item.name}</span>
                           </div>
                         ))}
@@ -352,8 +348,8 @@ export default function AccueilPage() {
         <div className="relative container mx-auto px-4">
           <FadeIn delay={0.2} direction="up">
             <div className="text-center mb-16">
-              <RotateIn delay={0.3} rotate={90}>
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 backdrop-blur-sm border border-cyan-400/30 rounded-full mb-6">
+              <RotateIn delay={0.3}>
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 border border-cyan-400/30 rounded-full mb-6">
                   <Code className="w-4 h-4 text-cyan-400" />
                   <span className="text-sm text-cyan-300 font-medium">Stack Technologique</span>
                 </div>
@@ -391,7 +387,7 @@ export default function AccueilPage() {
           <FadeIn delay={0.2} direction="up">
             <div className="text-center mb-16">
               <ScaleIn delay={0.3} scale={0.7}>
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 backdrop-blur-sm border border-cyan-400/30 rounded-full mb-6">
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-slate-800/50 border border-cyan-400/30 rounded-full mb-6">
                   <Globe className="w-4 h-4 text-cyan-400" />
                   <span className="text-sm text-cyan-300 font-medium">Portfolio</span>
                 </div>
@@ -436,8 +432,8 @@ export default function AccueilPage() {
         </div>
         
         <div className="relative container mx-auto px-4 text-center">
-          <div className="inline-flex items-center gap-3 px-4 py-2 bg-slate-900/50 backdrop-blur-sm border border-cyan-400/30 rounded-full mb-8">
-            <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-3 px-4 py-2 bg-slate-900/50 border border-cyan-400/30 rounded-full mb-8">
+            <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
             <span className="text-sm text-cyan-300 font-medium">Prêt à collaborer</span>
           </div>
           
