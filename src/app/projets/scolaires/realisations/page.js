@@ -11,7 +11,7 @@ import Link from 'next/link'
 import { FadeIn, ScaleIn, SlideIn, StaggerContainer, StaggerItem, FloatingElement, PulseElement } from '../../../../components/animations'
 
 export default function ProjetsE6() {
-  const [pdfUrl, setPdfUrl] = useState('/documents/dossier-e6.pdf') // Chemin vers le PDF à ajouter plus tard
+  const [pdfUrl, setPdfUrl] = useState('/documents/E6_IRATNI_Hocine-def.pdf')
   const [zoom, setZoom] = useState(100)
 
   const handleZoomIn = () => setZoom(prev => Math.min(prev + 10, 200))
@@ -183,28 +183,13 @@ export default function ProjetsE6() {
                     transition: 'width 0.3s ease'
                   }}
                 >
-                  {/* Placeholder for PDF - will be replaced when PDF is added */}
-                  <div className="aspect-[1/1.414] flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100">
-                    <div className="text-center p-8">
-                      <PulseElement duration={2}>
-                        <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full shadow-2xl mb-6">
-                          <FileText className="w-12 h-12 text-white" />
-                        </div>
-                      </PulseElement>
-                      <h3 className="text-3xl font-bold text-slate-800 mb-4">
-                        Dossier E6 à venir
-                      </h3>
-                      <p className="text-slate-600 max-w-md mx-auto leading-relaxed text-lg">
-                        Le fichier PDF du dossier sera ajouté prochainement.
-                      </p>
-                      
-                      {/* Uncomment this when PDF is ready */}
-                      {/* <iframe
-                        src={pdfUrl}
-                        className="w-full h-full border-0"
-                        title="Dossier E6"
-                      /> */}
-                    </div>
+                  {/* PDF Viewer */}
+                  <div className="aspect-[1/1.414]">
+                    <iframe
+                      src={pdfUrl}
+                      className="w-full h-full border-0"
+                      title="Dossier E6 - IRATNI Hocine"
+                    />
                   </div>
                 </div>
               </ScaleIn>

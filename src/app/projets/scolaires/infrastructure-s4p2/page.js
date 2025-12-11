@@ -173,8 +173,8 @@ export default function InfrastructureS4P2() {
                   </button>
 
                   <a
-                    href="/images/infrastructure/schema-infra-s4p2.jpg"
-                    download="Architecture-Infrastructure-S4P2-IRATNI-Hocine.jpg"
+                    href="/images/infrastructure/Infra_IRATNI_Hocine.png"
+                    download="Infra_IRATNI_Hocine.png"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-cyan-500/20 hover:bg-cyan-500/30 backdrop-blur-md text-cyan-300 border border-cyan-500/30 font-semibold px-4 py-2 rounded-xl transition-all"
@@ -199,7 +199,7 @@ export default function InfrastructureS4P2() {
               >
                 <div className="relative">
                   <img
-                    src="/images/infrastructure/schema-infra-s4p2.jpg"
+                    src="/images/infrastructure/Infra_IRATNI_Hocine.png"
                     alt="Architecture réseau – Infra S4P2 IRATNI Hocine"
                     className="w-full h-auto"
                   />
@@ -802,7 +802,7 @@ export default function InfrastructureS4P2() {
       <ImageModal 
         isOpen={isSchemaModalOpen}
         onClose={() => setIsSchemaModalOpen(false)}
-        imageSrc="/images/infrastructure/schema-infra-s4p2.jpg"
+        imageSrc="/images/infrastructure/Infra_IRATNI_Hocine.png"
         title="Architecture réseau – Infra S4P2 IRATNI Hocine"
       />
     </div>

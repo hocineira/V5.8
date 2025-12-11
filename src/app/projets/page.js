@@ -54,8 +54,8 @@ export default function ProjetsPage() {
       date: '2025',
       status: 'completed',
       type: 'project',
-      schemaUrl: '/images/infrastructure/schema-infra-s4p2.jpg',
-      image: '/images/infrastructure/schema-infra-s4p2.jpg',
+      schemaUrl: '/images/infrastructure/Infra_IRATNI_Hocine.png',
+      image: '/images/infrastructure/Infra_IRATNI_Hocine.png',
       icon: Server
     },
     {
@@ -296,7 +296,7 @@ export default function ProjetsPage() {
                   {/* Image Section - Mobile Optimized */}
                   <div className="lg:w-1/2 h-64 sm:h-80 lg:h-96 relative overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
                     <img 
-                      src="/images/infrastructure/schema-infra-s4p2.jpg" 
+                      src="/images/infrastructure/Infra_IRATNI_Hocine.png" 
                       alt="Architecture Réseau d'Entreprise - INFRA S4P2"
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                     />
@@ -348,7 +348,7 @@ export default function ProjetsPage() {
                         <div className="flex gap-3">
                           <Button 
                             className="flex-1 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white font-bold py-3 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200"
-                            onClick={() => openImageModal('/images/infrastructure/schema-infra-s4p2.jpg', 'Architecture Réseau d\'Entreprise - INFRA S4P2')}
+                            onClick={() => openImageModal('/images/infrastructure/Infra_IRATNI_Hocine.png', 'Architecture Réseau d\'Entreprise - INFRA S4P2')}
                           >
                             <Eye className="w-5 h-5 mr-2" />
                             Voir Schéma Complet
@@ -358,8 +358,8 @@ export default function ProjetsPage() {
                             className="flex-1 border-2 border-amber-500 text-amber-600 hover:bg-amber-50 font-bold py-3 px-6 rounded-xl transform hover:scale-105 transition-all duration-200"
                             onClick={() => {
                               const link = document.createElement('a');
-                              link.href = '/images/infrastructure/schema-infra-s4p2.jpg';
-                              link.download = 'Architecture-Infrastructure-S4P2-IRATNI-Hocine.jpg';
+                              link.href = '/images/infrastructure/Infra_IRATNI_Hocine.png';
+                              link.download = 'Infra_IRATNI_Hocine.png';
                               link.click();
                             }}
                           >
